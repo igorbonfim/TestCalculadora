@@ -1,0 +1,4 @@
+﻿procedure Test1;
+begin
+  Sys.Process('Microsoft.WindowsCalculator').UIAObject('Calculadora').UIAObject('LandmarkTarget').UIAObject('Operadores_padrão').UIAObject('Igual_a').Click;
+end;

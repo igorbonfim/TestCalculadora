@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{DC49BD44-BF54-4FF1-80A2-D173B4308A2D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44284.8694907407" objectName="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Multiplicar_por" objectLeft="278" objectTop="333" objectRight="292" objectBottom="347" clickPointX="282" clickPointY="340" imageFileName="tcvi58715723455281.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44284.8695023148" objectName="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a" objectLeft="247" objectTop="476" objectRight="323" objectBottom="528" clickPointX="297" clickPointY="504" imageFileName="tcvi58715860955283.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

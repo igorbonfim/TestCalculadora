@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{C058AA6E-70F6-4213-B5B9-CA333D1AB30F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44284.8553587963" objectName="Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass" objectLeft="488" objectTop="0" objectRight="1195" objectBottom="40" clickPointX="661" clickPointY="26" imageFileName="tcvi585936562300480.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44284.8553819444" objectName="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Cinco" objectLeft="123" objectTop="382" objectRight="132" objectBottom="405" clickPointX="133" clickPointY="403" imageFileName="tcvi58593875055280.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44284.8553935185" objectName="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Menos" objectLeft="247" objectTop="368" objectRight="323" objectBottom="420" clickPointX="268" clickPointY="391" imageFileName="tcvi58593931255283.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44284.8553935185" objectName="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Dois" objectLeft="90" objectTop="422" objectRight="166" objectBottom="474" clickPointX="139" clickPointY="438" imageFileName="tcvi58593992155286.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

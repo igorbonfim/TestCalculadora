@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Subtracao" key="{C058AA6E-70F6-4213-B5B9-CA333D1AB30F}" path="Subtracao.tcKDTest" />
+		<child name="Soma" key="{29CC5413-3840-43DB-8869-4AFD0803E755}" path="Soma.tcKDTest" />
+		<child name="Multiplicacao" key="{94CA2F1D-F923-45AF-91FE-7A8F7B1354CC}" path="Multiplicacao.tcKDTest" />
+		<child name="Divisao" key="{C4D1867F-F1E3-4F22-9841-38EFC68231A9}" path="Divisao.tcKDTest" />
+		<child name="Test5" key="{DC49BD44-BF54-4FF1-80A2-D173B4308A2D}" path="Test5.tcKDTest" />
+	</children>
+</Root>
