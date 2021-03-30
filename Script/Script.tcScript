@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{44235910-778C-4181-A9D0-0E769FB8E5EF}" path="Unit1.sd" />
+		<child name="Calculadora" key="{44235910-778C-4181-A9D0-0E769FB8E5EF}" path="Calculadora.sd" />
+		<child name="Main" key="{DBB610EF-81D9-4FD5-B181-84222A8E8CB7}" path="Main.sd" />
 	</children>
 </Root>

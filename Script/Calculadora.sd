@@ -52,54 +52,18 @@ end;
 
 procedure Executar();
 begin 
-TesteSoma;
-TesteSoma2;
-TesteSubtracao;
+  TesteSoma;  
+  TesteSubtracao;
+  TesteMultiplicacao;
+  TesteDivisao;
 end;
 
-procedure Test01;
-begin
-  Sys.Process('calc').Window('SciCalc', 'Calculadora').Keys('1');
-  Sys.Process('calc').Window('SciCalc', 'Calculadora').Window('Edit').Keys('0[NumPlus]10[Enter][Esc]');
-end;
-
-procedure Test2;
-begin
-  Sys.Process('calc').Window('SciCalc', 'Calculadora').Keys('7');
-  Sys.Process('calc').Window('SciCalc', 'Calculadora').text:= '7';
-  Sys.Process('calc').Window('SciCalc', 'Calculadora').Window('Edit').Keys('+9[Enter]');
-  Sys.Process('calc').Window('SciCalc', 'Calculadora').Window('Button', 'C').ClickButton;
-end;
-
-procedure Test6;
+procedure Test9;
 begin
   Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Dois.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Cinco.Click;
   Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Mais.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Dois.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Cinco.Click;
   Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a.Click;
-end;
-
-procedure Test7;
-begin
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Tr_s.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Multiplicar_por.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Tr_s.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a.Click;
-end;
-
-procedure Test3;
-begin
-  Aliases.ApplicationFrameHost.wndCalculadora.Activate;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Seis.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Multiplicar_por.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Seis.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Nove.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Dividir_por.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Tr_s.Click;
-  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a.Click;
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_1.TextContainer.NormalOutput, 'Text', cmpEqual, '10');
 end;

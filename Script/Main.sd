@@ -1,0 +1,6 @@
+﻿uses Calculadora;
+
+procedure AllTests();
+begin
+  Calculadora.Executar;
+end;
