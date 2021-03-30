@@ -1,0 +1,13 @@
+﻿procedure TesteBlocoNotas;
+begin
+  TestedApps.notepad.Run(1, true);
+  Aliases.notepad.wndNotepad.Edit.Drag(325, 47, -378, -50);
+  Aliases.notepad.wndNotepad.Edit.Keys('[BS]teste bloco de notas 1[Enter][Enter]teste bloco de notas 2[Enter][Enter]teste 3![ReleaseLast]');
+  Aliases.notepad.wndNotepad.Edit.Drag(73, 86, -130, -7);
+  Aliases.notepad.wndNotepad.Edit.Keys('[BS]');
+  Aliases.notepad.wndNotepad.Edit.Drag(183, 41, -188, 9);
+  Aliases.notepad.wndNotepad.Edit.Keys('[BS]^s');
+  Aliases.notepad.dlgSalvarComo.DUIViewWndClassName.Painel_do_Explorer.FloatNotifySink.ComboBox.SetText('testebloco');
+  Aliases.notepad.dlgSalvarComo.btnSalvar.ClickButton;
+end;
+

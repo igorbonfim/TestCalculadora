@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{D0CBC291-78BC-4622-AAA7-525BAB3DE5A6}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags the &apos;%n&apos; object." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="108" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="20" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-43" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="96" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.Microsoft_WindowsCalculator.Calculadora" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Um" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Zero" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Fun_es_padr_o.Quadrado" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{9ACDDBF7-75FD-41AA-A1B3-84F32658A3B5}" />
+</Root>

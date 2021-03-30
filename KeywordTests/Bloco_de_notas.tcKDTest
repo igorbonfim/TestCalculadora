@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{6E7823B6-EBB1-461E-B55E-E8D95BBCC8E7}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="197" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="90" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.notepad.wndNotepad.Edit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="testando bloco de notas" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.notepad.wndNotepad.Edit" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{F6FF2758-E401-4377-B69D-3AA4E829CD9F}" />
+</Root>

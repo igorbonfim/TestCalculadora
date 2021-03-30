@@ -3,5 +3,6 @@
 	<children>
 		<child name="Calculadora" key="{44235910-778C-4181-A9D0-0E769FB8E5EF}" path="Calculadora.sd" />
 		<child name="Main" key="{DBB610EF-81D9-4FD5-B181-84222A8E8CB7}" path="Main.sd" />
+		<child name="BlocoNotas" key="{E9A1B0AE-6521-405B-832B-DECE0370F812}" path="BlocoNotas.sd" />
 	</children>
 </Root>

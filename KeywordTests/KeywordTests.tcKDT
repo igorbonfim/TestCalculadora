@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
-		<child name="Test9" key="{327E4CAE-2CB9-4ABF-977B-F106BB7AB0D2}" path="Test9.tcKDTest" />
+		<child name="Bloco_de_notas" key="{DB6F7336-F521-4947-98F2-9F34F0C2AEB4}" path="Bloco_de_notas.tcKDTest" />
+		<child name="RaizQuadrada" key="{46AB92D4-1642-4D47-AD0C-9F227B7ADA57}" path="RaizQuadrada.tcKDTest" />
+		<child name="Quadrado" key="{D89637E2-2D31-47B3-B8F8-8CFDDEDCF3D2}" path="Quadrado.tcKDTest" />
 	</children>
 </Root>

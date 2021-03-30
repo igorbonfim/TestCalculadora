@@ -1,6 +1,7 @@
-﻿uses Calculadora;
+﻿uses Calculadora, BlocoNotas;
 
 procedure AllTests();
 begin
   Calculadora.Executar;
+  BlocoNotas.TesteBlocoNotas;
 end;
