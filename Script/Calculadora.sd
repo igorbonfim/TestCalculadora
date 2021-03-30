@@ -75,5 +75,6 @@ begin
   TesteMultiplicacao;
   TesteDivisao;
   RaizQuadrada;
+  Quadrado;
 end;
 

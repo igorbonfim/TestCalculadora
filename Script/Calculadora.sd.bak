@@ -50,6 +50,15 @@ begin
   aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a, 'Enabled', cmpEqual, true);  
 end;
 
+procedure Quadrado;
+begin
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.Drag(108, 20, -43, 96);
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Um.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Zero.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Fun_es_padr_o.Quadrado.Click;
+end;
+
 procedure RaizQuadrada;
 begin
   Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
@@ -67,3 +76,4 @@ begin
   TesteDivisao;
   RaizQuadrada;
 end;
+
